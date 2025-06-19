@@ -1,1 +1,9 @@
 <welcome to  java spring hello world>
+#include <stdio.h>
+
+void main() {
+   int a,b,c;
+   printf("enter the numbers");
+   scanf("%d%d%d",&a,&b,&c);
+   a>b && a>c?printf("%da is big\n",a):b>a && b>c?printf("b is big\n"):c>a && c>b?printf("%d is big\n",c):printf("invalid numer");
+
